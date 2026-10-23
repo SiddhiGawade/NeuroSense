@@ -110,7 +110,7 @@ export function ResultDashboard({ data, onRestart }: Props) {
         </div>
         <div style={{ textAlign: 'left' }}>
           <div style={{ color: '#94a3b8', fontSize: '0.95rem', fontWeight: 500, marginBottom: '0.4rem' }}>Analyzed Metrics</div>
-          <div style={{ fontSize: '1.4rem', fontWeight: '700', color: '#e2e8f0' }}>Demo + Cognitive</div>
+          <div style={{ fontSize: '1.4rem', fontWeight: '700', color: '#e2e8f0' }}>Demographics + Cognitive</div>
         </div>
         <div style={{ textAlign: 'left' }}>
           <div style={{ color: '#94a3b8', fontSize: '0.95rem', fontWeight: 500, marginBottom: '0.4rem' }}>Accuracy</div>

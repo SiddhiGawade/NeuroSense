@@ -39,10 +39,10 @@ export function ReactionTest({ onComplete }: Props) {
     // Score based on reaction time (0 to 10 points)
     // < 300ms = 10, < 400ms = 8, < 500 = 6, < 600 = 4, else 2
     let score = 2;
-    if (reactionTime! < 300) score = 10;
-    else if (reactionTime! < 400) score = 8;
-    else if (reactionTime! < 500) score = 6;
-    else if (reactionTime! < 600) score = 4;
+    if (reactionTime! < 1000) score = 10;
+    else if (reactionTime! < 1200) score = 8;
+    else if (reactionTime! < 1400) score = 6;
+    else if (reactionTime! < 1600) score = 4;
     
     onComplete(score);
   };

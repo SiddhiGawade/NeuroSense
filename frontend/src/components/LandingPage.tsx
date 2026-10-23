@@ -124,8 +124,8 @@ export function LandingPage({ onStart }: Props) {
         {/* Hero Stats */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem', flex: '0 0 auto' }}>
           {[
-            { label: 'Accuracy Rate', value: '94%', icon: <Shield size={20} color="#0047AB" /> },
-            { label: 'Tests Completed', value: '10,000+', icon: <Activity size={20} color="#28A745" /> },
+            { label: 'Accuracy Rate', value: '~75%', icon: <Shield size={20} color="#0047AB" /> },
+            // { label: 'Tests Completed', value: '10,000+', icon: <Activity size={20} color="#28A745" /> },
             { label: 'Avg. Analysis Time', value: '< 3 min', icon: <Zap size={20} color="#FFC107" /> },
           ].map(stat => (
             <div key={stat.label} style={{

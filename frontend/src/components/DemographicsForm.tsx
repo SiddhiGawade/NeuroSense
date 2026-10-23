@@ -219,7 +219,7 @@ export function DemographicsForm({ onComplete }: Props) {
             </Field>
 
             {/* Socioeconomic Status */}
-            <Field icon={<DollarSign size={13} color="#3b82f6" />} label="Socioeconomic Status">
+            <Field icon={<DollarSign size={13} color="#3b82f6" />} label="Socioeconomic Status" hint="Your income level and education-based social standing. This helps assess access to healthcare and cognitive resources.">
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5,1fr)', gap: '0.6rem' }}>
                 {[
                   { val: 1, label: 'Highest' },
